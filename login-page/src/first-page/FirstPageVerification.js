@@ -5,6 +5,12 @@ export const inputsVerify = {
   secondPassword: false,
   email: false,
   date: false,
+  cep: false,
+  street: false,
+  number: false,
+  district: false,
+  city: false,
+  reference: false
 };
 
 // Verificação da primeira página

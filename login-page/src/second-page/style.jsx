@@ -2,7 +2,7 @@
 import styled from "styled-components";
 
 export const SecondPageStyled = styled.form`
-  width: 65vw;
+  width: 55vw;
   height: auto;
 
   display: grid;
@@ -14,37 +14,64 @@ export const SecondPageStyled = styled.form`
 
   background-color: white;
 
-  h1 {
-    margin-top: 2.5rem;
-    margin-left: 2.5rem;
-  }
-
-  .icon-top-section {
+  .cep-street-container {
     display: flex;
-    align-items: center;
+    width: 90%;
 
     gap: 4rem;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
   }
 
-  .icon-top-section li {
+  .cep-input-div {
     display: flex;
-    align-items: center;
-
-    gap: 1.5rem;
+    flex-direction: column;
+    width: 50%;
   }
 
-  .icon-top-section svg {
-    font-size: 1.7rem;
-
-    color: #8c98a9;
+  .street-input-div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
   }
 
-  /* Icones do topo */
-  .purple {
-    color: #5357b1 !important;
+   #cep #street{
+    width: 100%;
   }
 
-  .green {
-    color: #00ae63 !important;
+  .number-district-city-container {
+    display: flex;
+    width: 90%;
+
+    gap: 4rem;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  .number-input-div {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+  }
+
+  .district-input-div {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+  }
+
+  .city-input-div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .reference-input-div {
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 2.5rem;
   }
 `;

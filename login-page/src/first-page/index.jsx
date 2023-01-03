@@ -64,7 +64,7 @@ function FirstPage() {
         </div>
       </div>
 
-      <button className="btn" onClick={FirstPageVerification}>
+      <button className="btn-purple first-page-btn" onClick={FirstPageVerification}>
         Próximo passo
       </button>
     </FirstPageStyled>
