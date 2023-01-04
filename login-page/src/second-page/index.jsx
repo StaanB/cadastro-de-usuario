@@ -1,7 +1,10 @@
-// Função para avançar para próxima página
-import { SecondPageVerification, BackFirstPage } from "./SecondPageVerification";
+// Função para avançar para próxima página ou voltar para primeira
+import {
+  SecondPageVerification,
+  BackFirstPage,
+} from "./SecondPageVerification";
 
-// Estilização da primeira página
+// Estilização da segunda página
 import { SecondPageStyled } from "./style";
 
 // Componente dos icones

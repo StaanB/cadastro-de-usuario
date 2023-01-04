@@ -7,14 +7,12 @@ import { FirstPageStyled } from "./style";
 // Componente dos icones
 import IconsTopSection from "../icons-top-section";
 
-
-
 function FirstPage() {
   return (
     <FirstPageStyled>
       <h1>Criação de usuário</h1>
 
-      <IconsTopSection PersonIcon="purple"/>
+      <IconsTopSection PersonIcon="purple" />
 
       <div className="name-input-div">
         <p>Nome</p>
@@ -57,14 +55,23 @@ function FirstPage() {
 
         <div className="date-input-div">
           <p>Data de nascimento</p>
-          <input id="date" className="input-form" type="date" min="1930-01-02" max="2005-01-02"></input>
+          <input
+            id="date"
+            className="input-form"
+            type="date"
+            min="1930-01-02"
+            max="2005-01-02"
+          ></input>
           <span id="span-date" className="span-form">
             O campo não pode estar vazio.
           </span>
         </div>
       </div>
 
-      <button className="btn-purple first-page-btn" onClick={FirstPageVerification}>
+      <button
+        className="btn-purple first-page-btn"
+        onClick={FirstPageVerification}
+      >
         Próximo passo
       </button>
     </FirstPageStyled>

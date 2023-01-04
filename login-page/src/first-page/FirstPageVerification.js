@@ -10,7 +10,8 @@ export const inputsVerify = {
   number: false,
   district: false,
   city: false,
-  reference: false
+  reference: false,
+  about: false,
 };
 
 // Verificação da primeira página
@@ -45,7 +46,7 @@ function checkFirstPageInputs() {
     name.classList.add("input-okay");
     spanName.classList.remove("visible");
     inputsVerify.name = true;
-    window.localStorage.setItem("Username", name.value.trim());
+    window.localStorage.setItem("UserName", name.value.trim());
   }
   // Checando campo senha
   const password = document.getElementById("password");
@@ -120,7 +121,7 @@ function checkFirstPageInputs() {
     email.classList.add("input-okay");
     spanEmail.classList.remove("visible");
     inputsVerify.email = true;
-    window.localStorage.setItem("UserEmail",  email.value.trim())
+    window.localStorage.setItem("UserEmail", email.value.trim());
   }
 
   // Checando campo data

@@ -1,7 +1,7 @@
-// Função para avançar para próxima página
+// Função para avançar para próxima página ou voltar para segunda
 import { ThirdPageVerification, BackSecondPage } from "./ThirdPageVerification";
 
-// Estilização da primeira página
+// Estilização da terceira página
 import { ThirdPageStyled } from "./style";
 
 // Componente dos icones
@@ -22,7 +22,7 @@ function ThirdPage() {
         <div className="about-input-div">
           <p>Nos conte mais sobre você</p>
           <textarea id="about" className="input-form" type="text"></textarea>
-          <span id="span-reference" className="span-form">
+          <span id="span-about" className="span-form">
             O campo não pode estar vazio.
           </span>
         </div>

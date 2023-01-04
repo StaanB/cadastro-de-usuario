@@ -107,6 +107,10 @@ export const Global = createGlobalStyle`
     cursor: pointer;
   }
 
+  .btn-purple:hover {
+    background-color: #3e43ac;
+  }
+
   .btn-gray {
     width: 12rem;
     height: 2.8rem;
@@ -121,7 +125,9 @@ export const Global = createGlobalStyle`
     cursor: pointer;
   }
 
-  .btn-purple:hover {
-    background-color: #3e43ac;
+  .btn-gray:hover{
+    background-color: #666f7b;
   }
+
+  
 `;

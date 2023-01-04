@@ -69,7 +69,7 @@ export const FirstPageStyled = styled.form`
     width: 50%;
   }
 
-  .first-page-btn{
+  .first-page-btn {
     margin-left: 80%;
     margin-top: 9rem;
   }
